@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+header {
+    background:#24282B;
+    display: flex;
+    justify-content:space-around;
+    height: 70px;
+    color: white;
+    border-bottom: #1293D4 solid;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    width: 10%;
+    /* height: 115px; */
+}
+
+nav {
+    width:50%;
+    display: flex;
+    align-items: center;
+
+}
+    
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+   
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-weight: 1;
+
+}
+
+.font-color {
+    color: #1293D4;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.image {
+    background-size: cover;
+    background:url(../images/cabecera.jpg) 0px -300px no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.txt {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    top:35%;
+    left: 15%;
+    color:aliceblue;
+
+}
+    
+
+h1 {
+    font-size: 35px;
+
+}
+
+
+.container-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #24282B;
+
+}
+
+.contain-section {
+    padding: 20px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#search {
+    height: 27px;
+    width: 250px;
+
+}
+
+#submit {
+    background-color:  #E8491D;
+    color: white;
+    border:  #E8491D;
+    width: 100px;
+    height: 30px;
+
+}
+
+.container-section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    padding: 35px 0 45px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+footer {
+    background: #1293D4;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top:70px;  */
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 729px;
+
+}
+
+.container-section1 {
+    padding: 10px 35px 0 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+} 
+
+#title-servicios {
+    padding: 5px;
+
+}
+
+.container-nosotros {
+    padding-top: 50px;
+
+}
+
+.container-2 {
+    background: #24282B;
+    height: 100px;
+    width: 100%;
+    color: white;
+    padding: 25px 0 0 0 ;
+    
+}
+
+#image {
+    width: 100%;
+    padding: 15px 0 15px 0 ;
+
+}
+
+
+.contain-left {
+    background-color: #24282B;
+    height: 200px;
+    width: 600px;
+    margin-top: 45px;
+    color: white;
+    text-align: center;
+
+}
+
+h6 {
+    font-size: 17px;
+    margin: 15px 0 0 10px;
+
+}
+
+#parrafo {
+    font-size: 75%;
+    padding: 0 10px 10px 10px;
+    width: 400px;
+    text-align: center;
+
+}
+
+#section-servicios {
+    display: flex;
+    padding: 0 20px 0 20px;
+    margin: 20px;
+    min-height: 729px;
+
+}
+
+.container-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000%;
+    padding: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contain-servicios {
+    background: #c2c6c9;
+    border: white solid;
+    height: 200px;
+    padding: 20px 0 20px 0 ;
+    
+    
+}
+
+.sub-title {
+    padding: 20px 0 10px 20px;
+    color: black;
+
+}
+
+.text {
+    padding-left: 20px;
+
+}
+
+
+.section-contactanos {
+    display: flex;
+    justify-content: space-around;
+    padding:20px 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 729px;
+    margin: 20px;
+       
+} 
+
+
+
+.form {
+    height: 25px;
+    width: 200%;
+
+
+}
+
+h6 {
+    margin: 20px;
+}
+
+.mensaje {
+    height: 100px; 
+    width: 200%;
+    
+
+}
+
+#enviar {
+    background: #E8491D;
+    color: white;
+    width: 200%;
+    height: 30px;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+
+#mapa {
+    width: 600px;
+    height: 250px;
+    margin-top: 50px;
+
+}
+
+@media (max-width:1200px)  {
+    
+    .section {
+        min-height: 850px;
+    }
+    .container-section1 {
+        justify-content: normal;
+        padding-top: 0;   
+    }
+
+    .container-nosotros {
+        padding: none;
+        margin-top: 30px;
+    }
+
+    .container-2 {
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    #image {
+        margin-top: 30px;
+        height: 300px;
+    }
+
+    footer {
+        height: 75px;
+    }
+
+    #section-servicios{
+        min-height: 810px;
+        margin-top: 50px;
+    }
+
+    .contain-servicios {
+        margin: 10px;
+        height: 100%;
+    }
+
+    .contain-left {
+        margin-top: 40px;
+    }
+
+    .section-contactanos {
+        min-height: 810px;
+        margin: 40px;
+    }
+
+    #sub-title-con {
+        margin: 30px 0 30px 0;
+    }
+
+    .form {
+        width: 120%;
+        margin-top: 15px;
+        height: 35px;
+    }
+
+    .mensaje {
+        width: 120%;
+        margin-top: 15px;
+    }
+
+    #enviar {
+        width: 120%;
+        margin-top: 40px;
+    }
+    
+    .container-right {
+        padding-left: 50px;
+        margin-top: 40px;
+    }
+
+    #mapa {
+        margin-top: 60px;
+    }
+
+   
+    
+
+}
+
+
+@media (max-width:992px)  {
+
+    footer {
+        height: 90px;
+    }
+
+    .section-contactanos {
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .container-form {
+        padding: 40px;
+    }
+
+    #sub-title-con {
+        margin: 5px;
+    }
+
+    .container-right {
+        margin: 10px; 
+    }
+
+    .contain-left {
+        width: 800px;
+    }
+
+    #mapa {
+        width: 800px;
+    }
+
+    .form {
+        width: 140%;
+        margin: 10px;
+    }
+
+    h6 {
+        margin: 10px;
+    }
+
+    .mensaje {
+        width: 140%;
+        margin: 10px;
+    }
+
+    #enviar {
+        width: 140%;
+        margin: 10px;
+    }
+
+}
+
+
+
+@media (max-width:480px)  {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 110px;
+        width: 480px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 200%;
+    }
+
+    .container-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contain-section {
+        text-align: center;
+    }
+
+    .container-section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        margin: 20px;
+    }
+
+    .parrafo-footer {
+        margin: 5px;
+    }
+
+    footer {
+        height: 30px;
+    }
+
+    .section {
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-nosotros {
+        padding-top: 10px;
+    }
+
+    .container-section1 {
+        height: 80%;
+        padding: 5px;
+    }
+
+    .parrafo {
+        font-size: 10px;
+    }
+
+    #parrafo {
+        width: 600px;
+        font-size: 90%;   
+
+    }
+
+    .container-2 {
+        /* height: 200px; */
+        margin: 5px;
+    }
+
+    .contain-left {
+        width: 400px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    #image {
+        padding: 5px 0 5px 0 ;
+    }
+
+    #section-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-contactanos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .form {
+        height: 25px;
+        width: 350px;
+    }
+
+    .mensaje {
+        height: 70px;
+    }
+
+    .container-right {
+        padding: 5px;
+        margin-top: 5px;
+        width: 105%;
+    }
+
+
+    #mapa {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    footer {
+        height: 20px;
+    }
+
+
+}
+
+
